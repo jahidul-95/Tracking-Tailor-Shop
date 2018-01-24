@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name" translatable="false">Tracking Tailors</string>
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="title_activity_login" translatable="false">Login</string>
+
+
+    <!-- Strings related to login -->
+    <string name="prompt_email" translatable="false"> Email</string>
+    <string name="send_feedback" translatable="false">Please Give Your Feedback</string>
+    <string name="your_registration_email" translatable="false">Give Your Registered Email</string>
+
+    <string name="prompt_password" translatable="false"> Password</string>
+    <string name="prompt_username" translatable="true">  Name</string>
+    <string name="action_sign_in" translatable="false">CREATE ACCOUNT</string>
+    <string name="action_sign_in_short" translatable="false">Sign in</string>
+    <string name="error_invalid_email" translatable="false">This email address is invalid</string>
+    <string name="error_invalid_password" translatable="false">This password is too short</string>
+    <string name="error_incorrect_password" translatable="false">This password is incorrect</string>
+    <string name="error_field_required" translatable="false">This field is required</string>
+    <string name="permission_rationale" translatable="false">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_gents_tailor_details" translatable="false">GentsTailorDetails</string>
+    <string name="brand" translatable="false">Brand</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="title_activity_google_maps" translatable="false">Map</string>
+    <string name="title_activity_add_account" translatable="false">Add Account</string>
+    <string name="title_activity_feed_back" translatable="false">Send Feedback</string>
+    <string name="title_activity_about_us" translatable="false">About Us</string>
+    <string name="title_activity_help" translatable="false">Help</string>
+    <string name="title_activity_share" translatable="false">Share</string>
+    <string name="title_activity_favourite" translatable="false">Favourite</string>
+    <string name="title_activity_nearest_tailor" translatable="false">Nearest Tailors</string>
+    <string name="title_activity_add_favourite" translatable="false">Add Favourite</string>
+    <string name="title_activity_rating" translatable="false">Rating</string>
+    <string name="share_app">Share</string>
+    <string name="sample_email">example@gmail.com</string>
+    <string name="account_sign_out">Log Out</string>
+    <string name="send">Send</string>
+    <string name="search_action_area">Search by location</string>
+    <string name="title_activity_seaech_by_area">SeaechByArea</string>
+    <string name="title_name">Title</string>
+    <string name="total_rating">Rating</string>
+    <string name="title">Title</string>
+    <string name="content_about">Top Tailors contains top famous tailor shop list in bangladesh.
+Their address ,contact number and it will show location for a particular shop on Google map .
+You can find out any tailor shop easily by search it .
+ </string>
+    <string name="Help_favourite">
+        1.Go to home page ,then press floating button ."\n"
+        2.A new page will be open. where contains all tailor list ."\n"
+        3.Then press  your favourite tailor shop.
+    </string>
+
+    <string name="help_local_area">
+        1.Go to home page ,beside \'Top Tailors\' name see search icon ,press it."\n"
+        2.A new page will be open ,where if you enter your area name ,then it will show result.
+    </string>
+    <string name="help_forgot_password">Go to feedback page and give Your Register email and user name</string>
+</resources>

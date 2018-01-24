@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:background="#FF0B5C0B">
+        <item
+            android:id="@+id/nav_top"
+            android:icon="@drawable/coat"
+            android:title="Top Tailors" />
+
+        <item
+            android:id="@+id/nav_gents"
+            android:icon="@drawable/man"
+            android:title="Gents Tailors" />
+        <item
+            android:id="@+id/nav_ladies"
+            android:icon="@drawable/girl"
+            android:title="Ladies Tailors"    />
+        <item
+            android:id="@+id/nav_favourite"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:title="Favourite" />
+
+    </group>
+
+    <item android:title="All Level">
+        <menu>
+            <item
+                android:id="@+id/nav_account"
+                android:icon="@drawable/ic_add_black_24dp"
+                android:title="Add Account" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_help_black_24dp"
+                android:title="Help" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_feedback_black_24dp"
+                android:title="Send Feedback"/>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="About"    />
+
+        </menu>
+    </item>
+
+</menu>

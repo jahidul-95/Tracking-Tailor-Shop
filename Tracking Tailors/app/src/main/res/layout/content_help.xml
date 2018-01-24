@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/black"
+    tools:context="com.mist.jahidulislam.toptailors.HelpActivity"
+    tools:showIn="@layout/activity_help">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="How to add favourites ?"
+        style="?android:listSeparatorTextViewStyle"
+        android:textColor="@color/White"
+        android:id="@+id/textView3"
+        android:layout_marginTop="57dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:textColor="@color/White"
+
+        android:id="@+id/textViewResentPassword"
+        android:layout_below="@+id/textView3"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_alignEnd="@+id/textView3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="How will find local tailors ? "
+        android:textColor="@color/White"
+
+        style="?android:listSeparatorTextViewStyle"
+        android:id="@+id/textView5"
+        android:layout_below="@+id/textViewResentPassword"
+        android:layout_alignLeft="@+id/textViewResentPassword"
+        android:layout_alignStart="@+id/textViewResentPassword"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="search"
+        android:textColor="@color/White"
+
+        android:id="@+id/textViewChangeUsename"
+        android:layout_below="@+id/textView5"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_alignRight="@+id/textView5"
+        android:layout_alignEnd="@+id/textView5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Forgot  password?"
+        android:textColor="@color/White"
+
+        style="?android:listSeparatorTextViewStyle"
+        android:id="@+id/textViewForGotPassword"
+        android:layout_below="@+id/textViewChangeUsename"
+        android:layout_alignLeft="@+id/textViewChangeUsename"
+        android:layout_alignStart="@+id/textViewChangeUsename"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:textColor="@color/White"
+
+        android:id="@+id/textViewRecoveryPassword"
+        android:layout_below="@+id/textViewForGotPassword"
+        android:layout_alignLeft="@+id/textViewForGotPassword"
+        android:layout_alignStart="@+id/textViewForGotPassword"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>

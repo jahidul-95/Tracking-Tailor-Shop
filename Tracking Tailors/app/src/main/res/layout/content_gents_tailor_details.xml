@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff00ff"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.mist.jahidulislam.toptailors.GentsTailorDetails"
+    tools:showIn="@layout/activity_gents_tailor_details">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/White"
+
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:text="Title"
+        android:id="@+id/textTitle"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textTitle">
+
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textTitle"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/side_nav_bar"
+            android:textColor="@color/White"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+           style="?android:listSeparatorTextViewStyle"
+            android:text="Brand"
+            android:id="@+id/textViewL1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:id="@+id/textViewBrand"
+            android:textColor="@color/White"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_below="@+id/textViewL1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/side_nav_bar"
+            android:textColor="@color/White"
+            style="?android:listSeparatorTextViewStyle"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Country"
+            android:id="@+id/textViewL2"
+            android:layout_below="@+id/textViewBrand"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/White"
+
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textViewCountry"
+            android:layout_below="@+id/textViewL2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/side_nav_bar"
+            android:textColor="@color/White"
+            style="?android:listSeparatorTextViewStyle"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="City"
+            android:id="@+id/textViewL3"
+            android:layout_below="@+id/textViewCountry"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/White"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textViewCity"
+            android:layout_below="@+id/textViewL3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/side_nav_bar"
+            android:textColor="@color/White"
+            style="?android:listSeparatorTextViewStyle"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Genere"
+            android:id="@+id/textViewL4"
+            android:layout_below="@+id/textViewCity"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/White"
+
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textViewGenere"
+            android:layout_below="@+id/textViewL4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/side_nav_bar"
+            android:textColor="@color/White"
+            style="?android:listSeparatorTextViewStyle"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Address"
+            android:id="@+id/textViewL5"
+            android:layout_below="@+id/textViewGenere"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/White"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textViewAddreess"
+            android:layout_below="@+id/textViewL5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/side_nav_bar"
+            android:textColor="@color/White"
+            style="?android:listSeparatorTextViewStyle"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Email"
+            android:id="@+id/textViewL6"
+            android:layout_below="@+id/textViewAddreess"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/White"
+
+            android:id="@+id/textViewEmail"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_below="@+id/textViewL6"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:background="@drawable/side_nav_bar"
+            android:textColor="@color/White"
+            android:layout_height="wrap_content"
+            style="?android:listSeparatorTextViewStyle"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Phone"
+            android:id="@+id/textViewL7"
+            android:layout_below="@+id/textViewEmail"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/White"
+            android:background="@drawable/diale_small"
+            android:id="@+id/textViewPhone"
+            android:layout_below="@+id/textViewL7"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+             />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:background="@drawable/side_nav_bar"
+            android:textColor="@color/White"
+            android:layout_height="wrap_content"
+            style="?android:listSeparatorTextViewStyle"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Average Rating"
+            android:id="@+id/textViewL8"
+            android:layout_below="@+id/textViewPhone"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/White"
+
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textViewTotalRating"
+            android:layout_below="@+id/textViewL8"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:background="@drawable/side_nav_bar"
+            android:textColor="@color/White"
+            android:layout_height="wrap_content"
+            style="?android:listSeparatorTextViewStyle"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Total User"
+            android:id="@+id/textViewL9"
+            android:layout_below="@+id/textViewTotalRating"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/White"
+
+            android:id="@+id/textViewTotalUser"
+            android:layout_below="@+id/textViewL9"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:layout_below="@+id/textViewTotalUser"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true">
+
+                <Button
+                    android:layout_width="90dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/button"
+                    android:textColor="@color/White"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Rate Me"
+                    android:id="@+id/rateMe"
+                    android:layout_alignParentRight="true"
+                    style="@style/Base.AlertDialog.AppCompat.Light" />
+
+                <ImageButton
+                    android:layout_width="90dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/imageGoogleMap"
+
+                    android:background="@drawable/button"
+                    android:src="@drawable/google_maps_icon_fw" />
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
